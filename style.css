@@ -671,8 +671,6 @@ mark {
   white-space: nowrap;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
-  -webkit-animation: textMarqueeX 4s linear infinite;
-          animation: textMarqueeX 4s linear infinite;
 }
 .btn_hotline .btn_text:after {
   top: 50%;
@@ -2522,7 +2520,8 @@ blockquote .quote_content {
   padding-top: 121px;
 }
 .main_slider_3 .slider_item {
-  padding: 140px 0px;
+  padding: 130px 0px;
+  padding-bottom: 30px;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
