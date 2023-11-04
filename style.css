@@ -6792,6 +6792,31 @@ Responsive For Mobile & Tablet Devices
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .pricing_header th {
+    font-size: 18px !important;
+    font-weight: 800 !important;
+  }
+  .red_row td,
+  .red_row th{
+    font-weight: bolder !important;
+    color: red !important;
+    font-size: 18px !important;
+  }
+  .white_row td,
+  .white_row th {
+    font-weight: bolder !important;
+    font-size: 18px !important;
+  }
+  .td_vertical {
+    vertical-align: middle;
+  }
+
+  .pricing_table tbody th,
+  .pricing_table tbody td {
+    font-weight: 400;
+    padding: 2px 5px !important;
+  }
 }
 
 
