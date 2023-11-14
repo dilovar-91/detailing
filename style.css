@@ -899,6 +899,7 @@ mark {
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 18px;
+  margin-left: 10px;
 }
 .section_heading .heading_description {
   font-size: 18px;
@@ -1709,9 +1710,9 @@ blockquote .quote_content {
   background-color: var(--bs-gray-dark);
 }
 .table thead th {
-  padding: 30px;
+  padding: 18px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 21px;
   color: var(--bs-white);
   text-transform: uppercase;
@@ -1720,7 +1721,7 @@ blockquote .quote_content {
 .table tbody th,
 .table tbody td {
   font-weight: 400;
-  padding: 15px 30px;
+  padding: 15px 20px;
 }
 
 /* 2.16 - Table - End
@@ -5791,7 +5792,7 @@ Responsive For Mobile & Tablet Devices
     line-height: 32px;
   }
   .main_slider .title_text {
-    font-size: 54px;
+    font-size: 36px;
     line-height: 60px;
   }
   .promotion_product_item .discount_text {
@@ -6731,7 +6732,8 @@ Responsive For Mobile & Tablet Devices
 .white_row td,
 .white_row th {
   font-weight: bolder !important;
-  font-size: 28px !important;
+  font-size: 18px !important;
+  text-align: center;
 }
 .td_vertical {
   vertical-align: middle;
@@ -6740,7 +6742,7 @@ Responsive For Mobile & Tablet Devices
 .pricing_table tbody th,
 .pricing_table tbody td {
   font-weight: 400;
-  padding: 2px 30px !important;
+  padding: 2px 14px !important;
 }
 
 
@@ -6806,7 +6808,7 @@ Responsive For Mobile & Tablet Devices
   .white_row td,
   .white_row th {
     font-weight: bolder !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
   .td_vertical {
     vertical-align: middle;
@@ -6816,6 +6818,13 @@ Responsive For Mobile & Tablet Devices
   .pricing_table tbody td {
     font-weight: 400;
     padding: 2px 5px !important;
+  }
+
+  .red_row td, .red_row th {
+    font-weight: bolder !important;
+    color: red !important;
+    font-size: 18px !important;
+    text-align: center;
   }
 }
 
